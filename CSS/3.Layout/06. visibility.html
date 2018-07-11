@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Visibility Rule</title>
+    <style type="text/css">
+        body {
+            font-family: Verdana, Sans-Serif;
+            font-size: 20px;
+        }
+
+        span {
+            color: red;
+            border: 1px red solid;
+        }
+
+        pre {
+            display: inline;
+            text-decoration: underline;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+
+        .visible {
+            visibility: visible;
+        }
+
+        .collapse {
+            visibility: collapse;
+        }
+
+        .none {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    In this text here is a span with content "test"<br/>that has <pre>visibility: hidden</pre> -
+    <span class="hidden">test</span>...<br />
+    You don't see the span, but it takes space<br />
+    <br />
+
+    In this text here is a span with content "test"<br />that has <pre>visibility: visible</pre> -
+    <span class="visible">test</span>...<br />
+    Now you see the span, but the surrounding text is the same<br />
+    <br />
+
+    In this text here is a span with content "test"<br />that has <pre>display: none</pre> -
+    <span class="none">test</span>...<br />
+    You don't see the span and it doesn't take space<br />
+    <br />
+
+    <table>
+        <tr>
+            <td>Cell 1, 1</td>
+            <td>Cell 1, 2</td>
+        </tr>
+        <tr>
+            <td class="collapse">Cell 2, 1</td>
+            <td>Cell 2, 2</td>
+        </tr>
+        <tr>
+            <td>Cell 3, 1</td>
+            <td>Cell 3, 2</td>
+        </tr>
+    </table>
+    <br />
+    <a href="http://stackoverflow.com/q/3695813/1862812">Difference between “visibility:collapse” and “display:none”</a>
+</body>
+</html>

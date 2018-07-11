@@ -1,0 +1,35 @@
+﻿/* CSS Document */
+
+a 	  { 
+    text-decoration: none 
+    }
+
+a:hover { 
+    text-decoration: underline;
+          color: red;
+          background-color: #CCFFCC 
+          }
+
+li em   { 
+    color: red; 
+          font-weight: bold 
+          }
+
+ul	  {
+    margin-left: 2cm 
+    }
+
+ul ul.hi	  { 
+    text-decoration: underline; 
+          margin-left: .5cm !important;
+          }
+
+h1, div, h2, p, ul, li {
+    margin:0;
+    padding:0;
+}
+
+ul > li {
+    padding-left: 20px;
+}
+

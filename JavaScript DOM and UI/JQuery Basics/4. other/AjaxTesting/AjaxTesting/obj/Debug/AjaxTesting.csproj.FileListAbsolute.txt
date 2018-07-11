@@ -1,0 +1,14 @@
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\AjaxTesting.dll.config
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\AjaxTesting.dll
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\AjaxTesting.pdb
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\Newtonsoft.Json.dll
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\System.Net.Http.Formatting.dll
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\System.Web.Http.dll
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\System.Web.Http.WebHost.dll
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\Newtonsoft.Json.xml
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\System.Net.Http.Formatting.xml
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\System.Web.Http.xml
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\bin\System.Web.Http.WebHost.xml
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\obj\Debug\AjaxTesting.csprojResolveAssemblyReference.cache
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\obj\Debug\AjaxTesting.dll
+C:\Users\itrifonov\Desktop\Lectures\JavaScript DOM and UI\JQuery Basics\4. other\AjaxTesting\AjaxTesting\obj\Debug\AjaxTesting.pdb

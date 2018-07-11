@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Size Rules</title>
+    <style type="text/css">
+        body {
+            font-size: 25px;
+        }
+
+        div {
+            border: 3px solid red;
+        }
+
+        .green {
+            background: #77FF77;
+            border: 1px solid black;
+            padding: 15px;
+            padding-top: 5px;
+        }
+
+        .red {
+            background: #FF7777;
+            border: 5px solid red;
+            padding-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        .one {
+            padding: 30px;
+            margin: 20px;
+        }
+
+        .two {
+            padding: 5px 100px 50px 30px;
+            margin: 50px 20px;
+        }
+
+        .first {
+            margin: 10px;
+        }
+
+        .second {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="green">
+        External div
+        <div class="red">
+            Internal div
+        </div>
+        More text
+    </div>
+
+    <div class="one">
+        This div has padding 30px and margin on four sides of 20px
+        <div class="two">
+            This div has padding on top, right, bottom and left of
+            5px, 100px, 50px, 30px;<br />50px margin on top and bottom and 20px on left and right
+        </div>
+        More text
+    </div>
+
+    <h1>Collapsing margin</h1>
+    <div class="first">First</div>
+    <div class="second">Second</div>
+</body>
+</html>

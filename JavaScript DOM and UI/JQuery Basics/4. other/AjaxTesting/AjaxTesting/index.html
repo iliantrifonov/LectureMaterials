@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery AJAX</title>
+</head>
+<body>
+    <div id="root">
+        <div class="get">
+            <button>Get</button>
+            <div></div>
+        </div>
+        <div class="post">
+            <input type="text">
+            <button>Post Input</button>
+        </div>
+        <div class="put">
+            <input type="text">
+            <button>Put Input(replace first)</button>
+        </div>
+        <div class="delete">
+            <input type="text">
+            <button>Delete</button>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="/jquery-1.11.3.js"></script>
+    <script>
+        $('.get button').on('click', function () {
+            $.ajax({
+                url: '/api/values/get',
+                type: 'GET'
+            }).then(function (data) {
+                $('.get div').text(JSON.stringify(data));
+            });
+        });
+
+        $('.post button').on('click', function() {
+            var input = $('.post input').val();
+            $.ajax({
+                url: '/api/values/post',
+                type: 'POST', // CREATE
+                data: { input: input },
+                success: function (data) {
+                    $('.get button').click();
+                },
+                error: function (xhr, textStatus, error) {
+                    
+                }
+            });
+        });
+
+        $('.put button').on('click', function () {
+            var input = $('.put input').val();
+            $.ajax({
+                url: '/api/values/put',
+                type: 'POST', // UPDATE
+                data: { input: input },
+                success: function (data) {
+                    $('.get button').click();
+                },
+                error: function (xhr, textStatus, error) {
+                    alert(error);
+                }
+            });
+        });
+
+        $('.delete button').on('click', function () {
+            var input = $('.delete input').val();
+            $.ajax({
+                url: '/api/values/delete',
+                type: 'DELETE',
+                data: { input: input },
+                success: function (data) {
+                    $('.get button').click();
+                },
+                error: function (xhr, textStatus, error) {
+                    alert(error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

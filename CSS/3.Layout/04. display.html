@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Display Rule</title>
+    <style>
+        header nav ul li {
+            display: inline-block;
+            height: 40px;
+            width: 75px;
+            background-color: cyan;
+        }
+
+        div {
+            border: 2px solid black;
+            margin: 5px;
+        }
+
+        span {
+            border: 2px solid red;
+            margin: 5px;
+        }
+
+        .inline {
+            display: inline;
+        }
+
+        .block {
+            display: block;
+        }
+
+        .none {
+            display: none;
+        }
+
+        .inline-block {
+            display: inline-block;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+
+        .box {
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: cyan;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Nav item</a></li>
+                <li><a href="#">Nav item</a></li>
+                <li><a href="#">Nav item</a></li>
+                <li><a href="#">Nav item</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div>Normal div</div>
+        <span>Normal span</span>
+        <div class="inline">inline div</div>
+        <div class="block">block div</div>
+        <div class="hidden">hidden div</div>
+        <span class="block">block span</span>
+        <div class="none">display:none div</div>
+        <div class="inline-block">inline-block div 1</div>
+        <div class="inline-block">inline-block div 2</div>
+        <div class="inline-block">inline-block div 3</div>
+
+        <div class="box">
+            text in a box
+        </div>
+    </section>
+</body>
+</html>
